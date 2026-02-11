@@ -140,7 +140,7 @@ class FileScanner:
     def _read_pdf_content(self, file_path: Path) -> Optional[str]:
         """Extract text content from a PDF file."""
         try:
-            from PyPDF2 import PdfReader
+            from pypdf import PdfReader
             reader = PdfReader(str(file_path))
             text_parts = []
             total_chars = 0
