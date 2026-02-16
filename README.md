@@ -1,5 +1,7 @@
 # AI File Organizer
 
+> See `AGENTS.md` for agentic navigation.
+
 ```
     _    ___   _____ _ _        ___                        _
    / \  |_ _| |  ___(_) | ___  / _ \ _ __ __ _  __ _ _ __ (_)_______ _ __
@@ -115,8 +117,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-file-organizer.git
-cd ai-file-organizer
+git clone https://github.com/arigatoexpress/DesktopOrganizer.git
+cd DesktopOrganizer
 
 # Install dependencies
 pip install -r requirements.txt
